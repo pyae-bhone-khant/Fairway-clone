@@ -1,8 +1,13 @@
+import Tabs from "../Components/Navbar"
+
 export default function Herro() {
-    return (
+    return ( 
+      <> 
+      <Tabs />
+
         <div className="flex justify-start gap-8 mt-10 px-40 ">
-            <div className="w-90 h-110 rounded-2xl bg-white ">
-                 <img className="w-90 h-60 rounded-t-2xl" src="https://fls-9e54280e-b04d-4956-9a2f-15260199fe02.laravel.cloud/courses/PdAZUbte8C1W8YFg2N5NZRH2JrGxWIUHdu0FK4Zy.jpg" alt="" />
+            <div className="w-90 h-100 rounded-2xl bg-white ">
+                 <img className="w-90 h-50 rounded-t-2xl" src="https://fls-9e54280e-b04d-4956-9a2f-15260199fe02.laravel.cloud/courses/PdAZUbte8C1W8YFg2N5NZRH2JrGxWIUHdu0FK4Zy.jpg" alt="" />
                  <div className="flex justify-between px-2 py-2">
                     <div>
 
@@ -24,8 +29,8 @@ export default function Herro() {
                  </div>
                  </div>
             </div>
-            <div className="w-90 h-110 bg-white rounded-2xl  ">
-                 <img className="w-90 h-60 rounded-t-2xl" src="https://fls-9e54280e-b04d-4956-9a2f-15260199fe02.laravel.cloud/courses/ZuXNIZ8K1UK05BdfMpHhwWgvemE2qnIMFaB3hSob.jpg" alt="" />
+            <div className="w-90 h-100 bg-white rounded-2xl  ">
+                 <img className="w-90 h-50 rounded-t-2xl" src="https://fls-9e54280e-b04d-4956-9a2f-15260199fe02.laravel.cloud/courses/ZuXNIZ8K1UK05BdfMpHhwWgvemE2qnIMFaB3hSob.jpg" alt="" />
                  <div className="flex justify-between px-2 py-2">
                     <div>
 
@@ -44,9 +49,10 @@ export default function Herro() {
 
                  <div className="flex justify-center py-2 px-2 w-85 p-2 h-8 text-center items-center rounded  bg-blue-400 ">
                  <button className="text-sm text-white font-bold cursor-pointer">အသေးစိတ်ကြည့်ရန်</button>
-                 </div>
+                 </div> 
                  </div>
             </div>
         </div>
+      </>
     )
 }

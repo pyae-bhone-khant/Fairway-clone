@@ -1,12 +1,22 @@
 import Menubar from "./Components/Menubar"
 import Herro from "./pages/Herro"
-import Footer from "./pages/Footer"
+import Footer from "./pages/Footer" 
+import Tabs from "./Components/Navbar";
+import { Routes, Route,  } from "react-router-dom";
+import NewCLass from "./pages/Waitnewclass";
+import CourseCard from "./pages/Teach/TeachCard";
 export default function App() {
   return (
-    <div className="h-screen w-screen bg-cover bg-center bg-[url('https://fairway-main-v5kqlh.laravel.cloud/images/abstract-blur-bg.svg')] ">
-      <Menubar />
-      <Herro /> 
-      <Footer />
+    <div className="min-h-screen w-screen  bg-cover bg-center bg-no-repeat bg-[url('https://fairway-main-v5kqlh.laravel.cloud/images/abstract-blur-bg.svg')] ">
+      <Menubar /> 
+      <Routes>
+        <Route path="/"  element={ <Tabs /> } /> 
+        <Route path="/waitclass"  element={ <NewCLass /> } /> 
+        <Route path="/herro"  element={ <Herro /> } /> 
+        <Route path="/teachcard"  element={ <CourseCard /> } /> 
+      </Routes>
+      {/* <Herro />  */}
+      <Footer /> 
     </div>
   )
 }

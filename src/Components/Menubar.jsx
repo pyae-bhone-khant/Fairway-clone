@@ -1,6 +1,7 @@
 import { Moon, Bell, Mail } from "lucide-react"; 
 import { useState } from "react";
-import { Calendar, Presentation } from "lucide-react";
+import { Calendar, Presentation } from "lucide-react"; 
+import { Link } from "react-router-dom";
 
 import Tabs from "./Navbar";
 
@@ -18,7 +19,7 @@ export default function Menubar() {
         {/* Navbar Links */}
         <div>
           <ul className="flex gap-8">
-            <li 
+            <Link  to={"/"}
               onClick={() => setActive("calendar")} 
               className={`cursor-pointer ${
                 active === "calendar" ? "text-blue-600 border-b-2 border-blue-600" 
@@ -26,8 +27,8 @@ export default function Menubar() {
               }`}
             >
               ပင်မစာမျက်နှာ
-            </li> 
-            <li 
+            </Link> 
+            <Link to={"/waitclass"} 
               onClick={() => setActive("class-waiting")} 
               className={`cursor-pointer ${
                 active === "class-waiting" ? "text-blue-600 border-b-2 border-blue-600" 
@@ -35,7 +36,7 @@ export default function Menubar() {
               }`}
             >
               အတန်းသစ်စောင့်ရန်
-            </li>
+            </Link>
             <li 
               onClick={() => setActive("contact")} 
               className={`cursor-pointer ${
@@ -62,7 +63,7 @@ export default function Menubar() {
       </div> 
 
       {/* Tabs */}
-      <Tabs />
+      {/* <Tabs /> */}
     </div>
   );
 }
