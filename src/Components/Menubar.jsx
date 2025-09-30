@@ -37,7 +37,7 @@ export default function Menubar() {
             >
               အတန်းသစ်စောင့်ရန်
             </Link>
-            <li 
+            <Link to={"/contact"} 
               onClick={() => setActive("contact")} 
               className={`cursor-pointer ${
                 active === "contact" ? "text-blue-600 border-b-2 border-blue-600" 
@@ -45,7 +45,7 @@ export default function Menubar() {
               }`}
             >
               ဆက်သွယ်ရန်
-            </li>
+            </Link>
           </ul>
         </div> 
 
