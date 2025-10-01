@@ -1,16 +1,15 @@
-import { Moon, Bell, Mail } from "lucide-react"; 
+import { Sun,  Moon, Bell, Mail } from "lucide-react"; 
 import { useState } from "react";
-import { Calendar, Presentation } from "lucide-react"; 
+import { useTheme } from "../ThemeProvider";
 import { Link } from "react-router-dom";
 
-import Tabs from "./Navbar";
-
-export default function Menubar() { 
+export default function Menubar() {  
+  const { dark, toggleTheme } = useTheme();
   const [active , setActive] = useState("calendar");
 
   return ( 
     <div>
-      <div className="flex justify-between w-full h-15 bg-white items-center px-40 border border-gray-300">
+      <div className="flex justify-between bg-[var(--color-bc)] text-[var(--color-text)] w-full h-15  items-center px-40 border border-gray-300">
         {/* Logo */}
         <div>
           <h1 className="text-2xl">Fairway Clone</h1>
@@ -51,7 +50,19 @@ export default function Menubar() {
 
         {/* Icons */}
         <div className="flex gap-4">
-          <Moon className="w-6 h-6 text-gray-700 hover:text-gray-900 cursor-pointer" />
+          {/* <Moon className="w-6 h-6 text-gray-700 hover:text-gray-900 cursor-pointer" /> */} 
+                     
+                      <button
+        onClick={toggleTheme}
+        className=" rounded-full hover:bg-[--color-card-hover] transition"
+      >
+        {dark ? (
+          <Sun className="w-6 h-6 text-[--color-text]" />
+        ) : (
+          <Moon className="w-6 h-6 text-[--color-text]" />
+        )}
+      </button>
+
           <Bell className="w-6 h-6 text-gray-700 hover:text-gray-900 cursor-pointer" />
           <Mail className="w-6 h-6 text-gray-700 hover:text-gray-900 cursor-pointer" />
         </div> 

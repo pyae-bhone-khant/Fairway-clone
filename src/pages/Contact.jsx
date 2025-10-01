@@ -4,7 +4,7 @@
  export default function Contact() {
     return ( 
         <>
-        <div className="w-375 h-full px-4 py-4 bg-blue-100 mt-4 m-4">
+        <div className="w-375 h-full  px-4 py-4 bg-[var(--color-bc)] text-[var(--color-text)] mt-4 m-4">
             <div className="">
                 <h1 className="text-xl ">ဆက်သွယ်ရန် </h1>
                 <h1 className="text-2xl mt-8" >Fairway Technology </h1> 

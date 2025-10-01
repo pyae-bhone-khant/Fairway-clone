@@ -143,7 +143,9 @@ const CourseCard = () => {
   return (
     <>
       <Tabs />
-      <div className="grid grid-cols-1 md:grid-cols-3  justify-start gap-8 mt-10 px-40 ">
+      <div className="grid grid-cols-1  md:grid-cols-3  justify-start gap-8 mt-10 px-40 " 
+            
+      >
         {courses.map((course) => {
           const percentage = Math.round(
             (course.progress / course.totalWeeks) * 100
@@ -151,7 +153,7 @@ const CourseCard = () => {
           return (
             <div
               key={course.id}
-              className="w-90 h-120 rounded-2xl bg-white"
+              className="w-90  h-120 rounded-2xl bg-[var(--color-bc)] text-[var(--color-text)] "
             >
               {/* Course Image */} 
               

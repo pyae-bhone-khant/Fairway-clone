@@ -6,7 +6,7 @@ export default function Tabs() {
 
   return (
     <div className="px-40">
-      <div className="flex gap-8 border-b items-center border-gray-300 mt-12">
+      <div className="  flex gap-8 border-b items-center border-gray-300 mt-12">
         {/* Tab 1 */}
         <Link
           to="/herro"

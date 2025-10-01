@@ -5,7 +5,7 @@ import { FaAndroid, FaApple } from "react-icons/fa";
 
 export default function Footer() {
     return (
-        <div className=" border w-full h-100 opacity-70 bg-opacity-50 border-t-gray-300 mt-20 border-b-0 bg-white"> 
+        <div className=" bg-[var(--color-bc)] text-[var(--color-text)] border w-full h-100 opacity-70 bg-opacity-50 border-t-gray-300 mt-20 border-b-0 "> 
         <div className="flex  justify-between px-40 mt-10  text-center" >
 
             <div className="w-100  ">

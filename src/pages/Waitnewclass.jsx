@@ -83,20 +83,20 @@
 
 export default function NewCLass() {
     return (
-        <div> 
-            <div className="w-full h-20 border bg-white px-40 items-center  flex  text-center border-gray-300">
+        <div > 
+            <div className="w-full bg-[var(--color-bc)] text-[var(--color-text)]  h-20 border  px-40 items-center  flex  text-center border-gray-300">
                 <h1 className=" flex  items-center justify-center text-xl   ">အတန်းသစ်စောင့်ရန်</h1>
             </div>  
             <div className="flex justify-center   " >
 
-            <div className="flex w-200 flex-col h-25 justify-start rounded-2xl px-4 py-4 bg-white mt-10"> 
+            <div className="flex w-200 flex-col h-25 justify-start rounded-2xl  bg-[var(--color-bn)] text-[var(--color-texd)] px-4 py-4  mt-10"> 
                 <div className="flex mb-4 ">
-               <Info className="w-5 h-5 mt-1 text-white  rounded-full bg-blue-500" />
-               <div className="flex flex-col px-2 text-blue-500">
+               <Info className="w-5 h-5 mt-1  text-white  rounded-full bg-blue-500" />
+               <div className="flex flex-col px-2 text-[var(--color-texd)] ">
 
                 <h1>တန်းခွဲသစ်များကို စောင့်ဆိုင်းလိုပါက အသုံးပြုန်ရန်ဖြစ်သည်</h1>
                 <h1 className="mt-2">မကြာခင်ဖွင့်တော့မည် တန်းခွဲများကို 
-                    <Link to={"/"} className="underline text-emerald-900 cursor-pointer" > ပင်မစာမျက်နှာ  </Link>
+                    <Link to={"/"} className="underline text-emerald-900 dark:text-blue-500 cursor-pointer" > ပင်မစာမျက်နှာ  </Link>
                       
                      တွင် ကြည့်ပါ </h1>
                </div>
@@ -105,7 +105,7 @@ export default function NewCLass() {
             </div> 
             <div className="flex justify-center  mt-4" >
 
-            <div className="flex flex-col w-200 h-full rounded-2xl px-8 bg-blue-50  ">
+            <div className="flex bg-[var(--color-bc)] text-[var(--color-text)]  flex-col w-200 h-full rounded-2xl px-8  ">
                 <h1 className="mt-5  text-sl opacity-40 ">ရှိသည့်အတန်းများ</h1> 
                 <div className="border mt-5 border-gray-400 opacity-50"></div> 
                 <div>                     
@@ -117,7 +117,7 @@ export default function NewCLass() {
 
                    <div className="py-2 text-xl" key={course.id}>{course.title}</div> 
                    <div className="flex gap-4 py-2">
-                    <h1 className={`px-1 py-1 rounded items-center flex text-center  text-sm ${course.levelcolor}`} >  {course.level}</h1>
+                    <h1 className={`px-1 py-1 rounded items-center flex text-center  bg-[var(--color-bc)] text-sm ${course.levelcolor}`} >  {course.level}</h1>
                     <div className="flex gap-1 mt-1" >
                     <Clock className="w-4 h-4 opacity-50 mt-1 text-sm bg-gray-400 rounded-full" />
                     <h1 className="text-sm" >  {course.week}</h1>
@@ -140,7 +140,6 @@ export default function NewCLass() {
                   
                 <div className="border  border-gray-400 opacity-50"></div> 
                     </>
-
 
                   
                              ))}
