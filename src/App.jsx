@@ -11,7 +11,7 @@ export default function App() {
     <div className="min-h-screen w-screen  bg-cover bg-center bg-no-repeat bg-[url('https://fairway-main-v5kqlh.laravel.cloud/images/abstract-blur-bg.svg')] ">
       <Menubar /> 
       <Routes>
-        <Route path="/"  element={ <Tabs /> } /> 
+        <Route path="/"  element={ <Herro /> } /> 
         <Route path="/waitclass"  element={ <NewCLass /> } /> 
         <Route path="/herro"  element={ <Herro /> } /> 
         <Route path="/teachcard"  element={ <CourseCard /> } /> 
