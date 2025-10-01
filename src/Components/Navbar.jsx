@@ -10,8 +10,9 @@ export default function Tabs() {
         {/* Tab 1 */}
         <Link
           to="/herro"
-          className={`flex cursor-pointer items-center font-bold gap-2 pb-2 transition-colors ${
-            location.pathname === "/herro"
+          className={`flex cursor-pointer items-center font-bold gap-2 pb-2 transition-colors ${ 
+             location.pathname === "/herro" || location.pathname === "/" 
+       
               ? "text-blue-600 border-b-2 border-blue-600"
               : "text-gray-500"
           }`}
