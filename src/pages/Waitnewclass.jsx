@@ -8,7 +8,6 @@
         title: "Professional Web Developer 2 (onine)",
         level: "ကျွမ်းကျင်အဆင့်",
     levelcolor: "px-1 py-1 border border-blue-600   bg-blue-100 text-blue-700 bg-opacity-2 ",
-
         week: "12 week",
         prize: "300000 ကျပ် "
 
@@ -134,10 +133,7 @@ export default function NewCLass() {
                       အတန်းသစ်စောင့်ရန်
                     </button>
                   </div>
-                </div>
-                  
-                  
-                  
+                </div>         
                 <div className="border  border-gray-400 opacity-50"></div> 
                     </>
 
