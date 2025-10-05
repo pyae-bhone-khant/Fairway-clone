@@ -5,7 +5,7 @@ export default function Tabs() {
   const location = useLocation();
 
   return (
-    <div className="px-40">
+    <div className=" px-20 md:px-40">
       <div className="  flex gap-8 border-b items-center border-gray-300 mt-12">
         {/* Tab 1 */}
         <Link
