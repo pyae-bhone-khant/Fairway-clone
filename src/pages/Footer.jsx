@@ -47,8 +47,8 @@ export default function Footer() {
       </div>
 
       {/* Footer Bottom */}
-      <footer className="flex flex-col items-start justify-start border-t border-gray-400 py-6 px-6 sm:px-12 md:px-24 lg:px-40">
-        <h1 className="text-xs sm:text-sm opacity-80">
+      <footer className="flex flex-col  justify-center border-t border-gray-400 py-6 px-6 sm:px-12 md:px-24 lg:px-40">
+        <h1 className=" justify-center flex text-xs sm:text-sm opacity-80">
           © 2025 Fairway Technology. All rights reserved.
         </h1>
       </footer>
