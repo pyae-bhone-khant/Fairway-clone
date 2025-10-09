@@ -93,11 +93,13 @@ export default function NewCLass() {
                <Info className="w-5 h-5 mt-1  text-white  rounded-full bg-blue-500" />
                <div className="flex flex-col px-2 text-[var(--color-texd)] ">
 
-                <h1 className="text-sm md:text-xl" >တန်းခွဲသစ်များကို စောင့်ဆိုင်းလိုပါက အသုံးပြုန်ရန်ဖြစ်သည်</h1>
-                <h1 className="mt-2">မကြာခင်ဖွင့်တော့မည် တန်းခွဲများကို 
+                <h1 className="text-sm md:text-xl" >တန်းခွဲသစ်များကို စောင့်ဆိုင်းလိုပါက အသုံးပြုန်ရန်ဖြစ်သည် 
+
+                <h1 className="">မကြာခင်ဖွင့်တော့မည် တန်းခွဲများကို 
                     <Link to={"/"} className="underline text-emerald-900 dark:text-blue-500 cursor-pointer" > ပင်မစာမျက်နှာ  </Link>
                       
                      တွင် ကြည့်ပါ </h1>
+                </h1>
                </div>
                 </div>
             </div> 
