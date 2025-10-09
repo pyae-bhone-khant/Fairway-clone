@@ -143,7 +143,7 @@ const CourseCard = () => {
   return (
     <>
       <Tabs />
-      <div className="grid grid-cols-1  md:grid-cols-3  justify-start gap-8 mt-10  px-12 md:px-40 " 
+      <div className="grid grid-cols-1  md:grid-cols-3  justify-start gap-8 mt-10  px-9 md:px-40 " 
             
       >
         {courses.map((course) => {
