@@ -143,7 +143,9 @@ const CourseCard = () => {
   return (
     <>
       <Tabs /> 
-      <div className="grid grid-cols-1  md:grid-cols-3  justify-center items-center md:justify-start gap-8 mt-10  px-2 md:px-40 " 
+       <div className="justify-center items-center flex">
+
+      <div className="grid grid-cols-1  md:grid-cols-3   md:justify-start gap-8 mt-10  px-2 md:px-40 " 
             
       >
         {courses.map((course) => {
@@ -211,6 +213,7 @@ const CourseCard = () => {
           );
         })}
       </div>
+       </div>
     </>
   );
 };
