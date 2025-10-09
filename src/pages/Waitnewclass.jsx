@@ -95,10 +95,10 @@ export default function NewCLass() {
 
                 <h1 className="text-sm md:text-xl" >တန်းခွဲသစ်များကို စောင့်ဆိုင်းလိုပါက အသုံးပြုန်ရန်ဖြစ်သည် 
 
-                <h1 className="">မကြာခင်ဖွင့်တော့မည် တန်းခွဲများကို 
+                မကြာခင်ဖွင့်တော့မည် တန်းခွဲများကို 
                     <Link to={"/"} className="underline text-emerald-900 dark:text-blue-500 cursor-pointer" > ပင်မစာမျက်နှာ  </Link>
                       
-                     တွင် ကြည့်ပါ </h1>
+                     တွင် ကြည့်ပါ 
                 </h1>
                </div>
                 </div>
