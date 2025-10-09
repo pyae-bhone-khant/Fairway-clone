@@ -143,8 +143,6 @@ const CourseCard = () => {
   return (
     <>
       <Tabs /> 
-      <div className="flex justify-center">
-
       <div className="grid grid-cols-1  md:grid-cols-3  justify-start gap-8 mt-10  px-12 md:px-40 " 
             
       >
@@ -155,7 +153,7 @@ const CourseCard = () => {
           return (
             <div
               key={course.id}
-              className="w-90  h-120 rounded-2xl bg-[var(--color-bc)] text-[var(--color-text)] "
+              className="w-90  h-120 rounded-2xl bg-[var(--color-bg)] text-[var(--color-text)] "
             >
               {/* Course Image */} 
               
@@ -212,7 +210,6 @@ const CourseCard = () => {
             </div>
           );
         })}
-      </div>
       </div>
     </>
   );
