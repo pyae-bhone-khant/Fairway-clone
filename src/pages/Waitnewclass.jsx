@@ -83,8 +83,8 @@
 export default function NewCLass() {
     return (
         <div > 
-            <div className="w-full bg-[var(--color-bc)] text-[var(--color-text)]  h-20 border  px-40 items-center  flex  text-center border-gray-300">
-                <h1 className=" flex  items-center justify-center sm:text-sm md:text-xl   ">အတန်းသစ်စောင့်ရန်</h1>
+            <div className="w-full bg-[var(--color-bc)] text-[var(--color-text)]  h-20 border  md:px-40 items-center  flex  text-center border-gray-300">
+                <h1 className=" flex  justify-start items-start md:items-center md:justify-center sm:text-sm md:text-xl  ">အတန်းသစ်စောင့်ရန်</h1>
             </div>  
             <div className="flex justify-center   " >
 
