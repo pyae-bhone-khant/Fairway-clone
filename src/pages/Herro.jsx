@@ -6,7 +6,7 @@ export default function Herro() {
       <Tabs />
 
         <div className="flex flex-col md:flex-row  justify-start gap-8 mt-10 px-12 md:px-40 ">
-            <div className="w-90 h-100 rounded-2xl bg-[var(--color-bc)] text-[var(--color-text)]   ">
+            <div className="w-90 h-100 rounded-2xl bg-[var(--color-bg)] text-[var(--color-text)]   ">
                  <img className="w-90 h-50 rounded-t-2xl" src="https://fls-9e54280e-b04d-4956-9a2f-15260199fe02.laravel.cloud/courses/PdAZUbte8C1W8YFg2N5NZRH2JrGxWIUHdu0FK4Zy.jpg" alt="" />
                  <div className="flex justify-between px-2 py-2">
                     <div>
@@ -29,7 +29,7 @@ export default function Herro() {
                  </div>
                  </div>
             </div>
-            <div className="w-90 bg-[var(--color-bc)] text-[var(--color-text)]  h-100  rounded-2xl  ">
+            <div className="w-90 bg-[var(--color-bg)] text-[var(--color-text)]  h-100  rounded-2xl  ">
                  <img className="w-90 h-50 rounded-t-2xl" src="https://fls-9e54280e-b04d-4956-9a2f-15260199fe02.laravel.cloud/courses/ZuXNIZ8K1UK05BdfMpHhwWgvemE2qnIMFaB3hSob.jpg" alt="" />
                  <div className="flex justify-between px-2 py-2">
                     <div>
